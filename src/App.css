@@ -55,5 +55,16 @@
     box-sizing: border-box;
  }
 
+ .container{
+   width: 40%;
+   margin: auto;
+   border: 1px solid violet;
+   text-align: center;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   border-radius: 8px;
+   background: #f28ab2;
+ }
 
- 
+
+
+

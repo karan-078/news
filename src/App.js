@@ -1,10 +1,14 @@
 import './App.css';
-import Tour from './Tour/Tour';
+import Reviwes from './reviwes/Reviwes';
+
 
 function App() {
   return (
 <>
-<Tour/>
+<section className="container">
+<h1>Our Reviwes</h1>
+<Reviwes/>
+</section>
 </>
   );
 }
