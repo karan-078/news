@@ -1,13 +1,12 @@
-
-import Cart from './addtocart/Cart';
-import Item from './addtocart/Item';
 import './App.css';
+import Birthday from './birthday/Birthday';
 
 function App() {
   return (
 <>
-<Cart/>
-
+<div className="maiin-container">
+<Birthday/>
+</div>
 </>
   );
 }
