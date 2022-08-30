@@ -1,44 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300&family=Roboto:wght@300;700&display=swap');
 
-    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300&family=Roboto:wght@300;700&display=swap');
-*{
- padding: 0;
- margin: 0;
- box-sizing: border-box;
- font-family: 'Roboto', sans-serif;
- list-style: none;
- text-decoration: none;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    text-decoration: none;
 }
 
-body{
+body {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.main-container{
+.main-container {
     width: 40%;
     margin: auto;
 }
 
-.infocontainer{  
+.infocontainer {
 
-width: 100%;
-margin-top: 2rem;
-background: rgb(255, 255, 255);
-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-padding-bottom: 2rem;
+    width: 100%;
+    margin-top: 2rem;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding-bottom: 2rem;
 }
 
-.image{
+.image {
     width: 100%;
 }
 
-img{
+img {
     width: 100%;
-   
+
 }
 
-.price{
+.price {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,53 +46,53 @@ img{
 
 }
 
-.about{
-    padding: 0 1rem 2rem 2rem ;
+.about {
+    padding: 0 1rem 2rem 2rem;
 }
 
-button{
+button {
     background: transparent;
     outline: none;
     border: none;
     color: rgba(0, 64, 255, 0.529);
 }
 
-.fliteritem{
- width: 18rem;
- padding: 0.4rem 0.8rem;
- color: red;
- border: 1px solid red;
- border-radius: 8px;
- 
+.fliteritem {
+    width: 18rem;
+    padding: 0.4rem 0.8rem;
+    color: red;
+    border: 1px solid red;
+    border-radius: 8px;
+
 }
 
-.btn{
+.btn {
     width: 100%;
     text-align: center;
-   
-}
-@media screen and (max-width: 700px){
 
-    .main-container{
+}
+
+@media screen and (max-width: 725px) {
+
+    .main-container {
         width: 90%;
         margin: auto;
     }
 
 
-    .btn{
+    .btn {
         width: 50%;
         text-align: center;
         margin: auto;
-       
+
     }
 
-    .fliteritem{
+    .fliteritem {
         width: 9rem;
         padding: 0.4rem 0.8rem;
         color: red;
         border: 1px solid red;
         border-radius: 8px;
-        
-       }
-} 
-    
+
+    }
+}
