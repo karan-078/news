@@ -1,9 +1,10 @@
 import './App.css';
+import Tour from './Tour/Tour';
 
 function App() {
   return (
 <>
-<TransformStreamDefaultController
+<Tour/>
 </>
   );
 }
