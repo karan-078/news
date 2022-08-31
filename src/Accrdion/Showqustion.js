@@ -1,19 +1,18 @@
-import React, { useState } from 'react'
+import React from 'react'
 import data from './data'
 import Qustion from './Qustion'
 const Showqustion = () => {
-    const [qustion, setqustion]= useState(data)
+ 
   return (
     <>
-      {/* <h3>Qustion Answer About Login</h3> */}
 <div className="container">
 
 
     <section className="info">
       {
-        qustion.map((qustion)=>{
+        data.map((qus)=>{
         return (
-        <Qustion key={qustion.id} {...qustion}/>
+        <Qustion key={qus.id} {...qus}/>
         )
         })
       }
