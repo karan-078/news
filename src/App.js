@@ -1,14 +1,11 @@
-import './App.css';
-import Reviwes from './reviwes/Reviwes';
 
+import Showqustion from './Accrdion/Showqustion';
+import './App.css';
 
 function App() {
   return (
 <>
-<section className="container">
-<h1>Our Reviwes</h1>
-<Reviwes/>
-</section>
+<Showqustion/>
 </>
   );
 }
