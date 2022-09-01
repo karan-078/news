@@ -54,7 +54,7 @@
     margin: 0;
     box-sizing: border-box;
  }
-
+/* 
  .container{
    min-width: 30rem;
    max-width: 25rem;
@@ -64,8 +64,18 @@
    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
    border-radius: 8px;
    background: #080080;
- }
+ } */
 
 
 
 
+.main-container{
+  text-align: center;
+  margin-top: 3rem;
+}
+.undrline{
+  height: 3px;
+  background: red;
+  width: 7rem;
+  margin: 1rem auto;
+}
