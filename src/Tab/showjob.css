@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300&family=Roboto:wght@300;700&display=swap');
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ font-family: 'Roboto', sans-serif;
+ list-style: none;
+ text-decoration: none;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.section{
+    max-width: 60%;
+    margin: auto;
+   text-align: center;
+}
+
+.btn{
+background: transparent;
+border: none;
+color: brown;
+margin: 0 1rem 0 0;
+font-size: 22px;
+text-transform: uppercase;
+
+}
+
+h4{
+  padding: 0.4rem 0.8rem;
+  background: rgba(36, 36, 124, 0.237);
+  display: inline;
+}
+
+.job-dates{
+  margin: 2rem 0 2rem 0;
+  color: dimgray;
+}
+.active-btn{
+  color: blue;
+}
+.job-icon{
+  color: rgb(7, 73, 213);
+}
+p{
+  padding: 1rem 0rem;
+}
+.job-center{
+  margin: 2rem 0 2rem 0;
+}
+.class-desk{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
