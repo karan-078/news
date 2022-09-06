@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300&family=Roboto:wght@300;700&display=swap');
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ font-family: 'Roboto', sans-serif;
+ list-style: none;
+ text-decoration: none;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-center{
+ width: 60vw;
+ margin: 0 auto;
+ margin-top: 5rem;
+ text-align: center;
+}
+
+label{
+    margin-right: .4rem;
+}
+
+
+.search-itme{
+    width: 4rem;
+
+}
+
+.text-value{
+    margin-top: 3rem;
+}

@@ -1,13 +1,11 @@
-
-import './App.css';
 import React from 'react'
-import Fetchjob from './Tab/Fetchjob';
-
+import Random from './textgenrater/Random';
+import './App.css';
 const App = () => {
   return (
-    <div>
-      <Fetchjob/>
-    </div>
+  <>
+ <Random/>
+  </>
   )
 }
 
