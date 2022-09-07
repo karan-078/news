@@ -1,10 +1,10 @@
 import React from 'react'
-import Random from './textgenrater/Random';
 import './App.css';
+import Color from './colorgenrater/Color';
 const App = () => {
   return (
   <>
- <Random/>
+<Color/>
   </>
   )
 }
