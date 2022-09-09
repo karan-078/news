@@ -1,75 +1,81 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300&family=Roboto:wght@300;700&display=swap');
-*{
- padding: 0;
- margin: 0;
- box-sizing: border-box;
- font-family: 'Roboto', sans-serif;
- list-style: none;
- text-decoration: none;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    text-decoration: none;
 }
 
-body{
+body {
     display: flex;
     align-items: center;
     justify-content: center;
     background: #efefef;
 }
 
-.section-center{
+.section-center {
     margin: 0 auto;
     padding: 2rem 1rem;
     margin-top: 5rem;
     width: 60vw;
     max-width: 25rem;
     background: #ffff;
-    box-shadow: 10px 6px 70px rgba(0,0,0,0.1);
+    box-shadow: 10px 6px 70px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
-.heading{
-    margin-bottom:1rem;
+
+.heading {
+    margin-bottom: 1rem;
     color: rgb(175, 58, 58);
     text-shadow: 2px 2px 4px rgb(199, 28, 28);
 }
-.input-container{
+
+.input-container {
     margin: 1rem 0 1rem 0;
     border: 1px solid black;
 }
 
-input{
-    width:80%;
+input {
+    width: 80%;
     height: 100%;
     border: none;
     outline: none;
     margin-left: 1.2rem;
 }
-.submit-btn{
+
+.submit-btn {
     background: blueviolet;
     color: white;
     outline: none;
     border: none;
     padding: 0.2rem 0.4rem;
-    
+
 
 }
-.clear-btn{
+
+.clear-btn {
     margin-top: 1rem;
     padding: 0.2rem 0.4rem;
-    background:#ff00005a;
+    background: #ff00005a;
     border: 1px solid white;
     color: white;
 }
 
-.groceary-list,.list-container{
+.groceary-list,
+.list-container {
     max-width: 25rem;
     margin-top: 1rem;
     max-width: 25rem;
 }
 
-.item-container{
+.item-container {
     background: #efefef;
     width: 90%;
     min-height: 2rem;
-    border-radius: 2px ;
+    border-radius: 2px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -79,32 +85,44 @@ input{
     margin-top: 1rem;
 }
 
-.icon{
+.icon {
     display: flex;
-   gap: 1rem;
+    gap: 1rem;
 }
 
-.alert.danger{
+.alert.danger {
     background: rgba(237, 104, 104, 0.749);
     border-radius: 4px;
     color: #ffff;
 }
 
-.alert.sucsess{
+.alert.sucsess {
     background: rgb(92, 221, 92);
     border-radius: 4px;
     color: #ffff;
 }
 
-.edit,.delet{
+.edit,
+.delet {
     outline: none;
     border: none;
 }
 
-.trash{
+.trash {
     color: red;
 }
 
-.edit{
-color: green;
+.edit {
+    color: green;
+}
+
+@media screen and (max-width:700px){
+    .section-center{
+        width: 90vw;
+    }
+
+
+    input {
+        width: 74%;
+    }
 }
