@@ -1,10 +1,11 @@
 import React from 'react'
 import './App.css';
-import Color from './colorgenrater/Color';
+import Main from './grocearybud/Main';
 const App = () => {
+ 
   return (
   <>
-<Color/>
+ <Main/>
   </>
   )
 }
