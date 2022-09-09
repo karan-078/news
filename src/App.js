@@ -1,11 +1,12 @@
 import React from 'react'
 import './App.css';
-import Main from './grocearybud/Main';
+import Navbar from './navbar/Navbar';
 const App = () => {
  
   return (
-  <>
- <Main/>
+ <>
+  <Navbar/>
+
   </>
   )
 }
