@@ -1,17 +1,17 @@
 import React from 'react'
 import './App.css';
-import Home from './sidebar/Home';
-import Modal from './sidebar/Modal';
-import Sidebar from './sidebar/Sidebar';
-
+import Hero from './stripe/Hero';
+import Navbar from './stripe/Navbar';
+import Sidebar from './stripe/Sidebar';
+import Submainu from './stripe/Submainu';
 const App = () => {
  
   return (
  <>
- <Home/>
- <Modal/>
- <Sidebar/>
-
+<Navbar/>
+<Sidebar/>
+<Hero/>
+<Submainu/>
 </>
   )
 }

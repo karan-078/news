@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { AppProvider } from './sidebar/Contex';
+// import { AppProvider } from './sidebar/Contex';
+import { AppProvider } from './stripe/Context';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -11,7 +12,7 @@ root.render(
     <AppProvider>
     <App />
     </AppProvider>
-
+    {/* <App /> */}
   </React.StrictMode>
 );
 
