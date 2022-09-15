@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secction-ecnter{
+  background: pink;  
+
+}
+
+.form-controal{
+ display: flex;
+ flex-direction: column;
+ padding:2rem 2rem;
+}
+
+input{
+    margin-bottom: 1rem;
+}
+button{
+    background: blueviolet;
+    color: aliceblue;
+}
