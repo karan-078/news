@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 // import { AppProvider } from './sidebar/Contex';
 // import { AppProvider } from './stripe/Context';
- import { AppProvider } from './cart/Context';
+//  import { AppProvider } from './cart/Context';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -10,10 +10,10 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <AppProvider>
+    {/* <AppProvider>
     <App />
-    </AppProvider>
-    {/* <App /> */}
+    </AppProvider> */}
+    <App />
   </React.StrictMode>
 );
 
