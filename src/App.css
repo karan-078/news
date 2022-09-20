@@ -1,81 +1,305 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300&family=Roboto:wght@300;700&display=swap');
-*{
- padding: 0;
- margin: 0;
- box-sizing: border-box;
- font-family: 'Roboto', sans-serif;
- list-style: none;
- text-decoration: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
 
-/* varivals  */
-:root {
-    /* dark shades of primary color*/
-    --clr-primary-1: hsl(162, 61%, 89%);
-    --clr-primary-2: hsl(162, 60%, 78%);
-    --clr-primary-3: hsl(162, 61%, 67%);
-    --clr-primary-4: hsl(162, 61%, 57%);
-    /* primary/main color */
-    --clr-primary-5: hsl(162, 73%, 46%);
-    /* lighter shades of primary color */
-    --clr-primary-6: #1aa179;
-    --clr-primary-7: #13795b;
-    --clr-primary-8: #0d503c;
-    --clr-primary-9: #06281e;
-    /* darkest grey - used for headings */
-    --clr-grey-1: hsl(212, 33%, 89%);
-    --clr-grey-2: hsl(210, 31%, 80%);
-    --clr-grey-3: hsl(211, 27%, 70%);
-    --clr-grey-4: hsl(209, 23%, 60%);
-    /* grey used for paragraphs */
-    --clr-grey-5: hsl(210, 22%, 49%);
-    --clr-grey-6: hsl(209, 28%, 39%);
-    --clr-grey-7: hsl(209, 34%, 30%);
-    --clr-grey-8: hsl(211, 39%, 23%);
-    --clr-grey-9: hsl(209, 61%, 16%);
-    --clr-white: #fff;
-    --clr-red-dark: hsl(360, 67%, 44%);
-    --clr-red-light: hsl(360, 71%, 66%);
-    --clr-green-dark: hsl(125, 67%, 44%);
-    --clr-green-light: hsl(125, 71%, 66%);
-    --clr-black: #222;
-    --transition: all 0.3s linear;
-    --spacing: 0.1rem;
-    --radius: 0.25rem;
-    --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
-    --max-width: 1170px;
-    --fixed-width: 450px;
-    --clr-pink: #f28ab2;
-  }
+body {
+  background: #ccc4c4;
+}
 
- ::after,::before{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
- }
+label {
+  text-shadow: 5px 2px 12px #000000;
+  color: rgb(231, 77, 77);
+  font-size: 1.3rem;
+}
+
+h2 {
+  text-shadow: 5px 2px 12px #000000;
+  color: #fff;
+  font-size: 3rem;
+}
+
+/* cotail componentes */
+.cocktail {
+  background: #fff;
+  margin: 1rem 1rem;
+  width: 20rem;
+  /* max-width: 25rem; */
+  height: 27rem;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+
+}
+
+.cocktail:hover {
+
+  -webkit-transform: scale(1.3);
+  transform: scale(1.1);
+}
+
+.img-container {
+  width: 20rem;
+  height: 20rem;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+
+/* cotails-center */
+
+.cocktails-center {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+}
+
+
+/* navbar */
+
+
+
+.nav-bar {
+  display: flex;
+  position: sticky;
+  top: 0;
+  left: 100%;
+  z-index: 1;
+}
+
+.av-center {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  background: #fff;
+  height: 8vh;
+  border-bottom: 1px solid rgb(169, 169, 169);
+}
+
+.nav-links {
+  display: flex;
+  gap: 4rem;
+}
+
+
+
+/* form  */
+
+/* .section-search{
+  background: red;
+  height: 40vh;
+} */
 /* 
- .container{
-   min-width: 30rem;
-   max-width: 25rem;
-   margin: auto;
-   border: 1px solid violet;
-   text-align: center;
-   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-   border-radius: 8px;
-   background: #080080;
- } */
+.search-form{
+  background: red;
+  height: 40vh;
+  text-align: center;
+} */
+
+.form-control {
+  margin-top: 1rem;
+  margin-top: 3rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  margin: auto;
+  margin-top: 7rem;
+  background-color: #fff;
+  padding: 1rem 3rem;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+input {
+  width: 14rem;
+  margin: auto;
+  margin-top: 1rem;
+  border: none;
+  background-color: #ccc4c4;
+  padding: .2rem .4rem;
+  border-radius: 4px;
+  border: 1px solid blue;
+
+}
+
+main {
+  width: 90%;
+  margin: auto;
+  background: #ccc4c4;
 
 
+}
 
+.section-titel {
 
-.main-container{
   text-align: center;
   margin-top: 3rem;
+  margin-bottom: 3rem;
 }
-.undrline{
-  height: 3px;
-  background: red;
-  width: 7rem;
-  margin: 1rem auto;
+
+
+
+.ring
+{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:150px;
+  height:150px;
+  background:transparent;
+  border:3px solid #3c3c3c;
+  border-radius:50%;
+  text-align:center;
+  line-height:150px;
+  font-family:sans-serif;
+  font-size:20px;
+  color:#fff000;
+  letter-spacing:4px;
+  text-transform:uppercase;
+  text-shadow:0 0 10px #fff000;
+  box-shadow:0 0 20px rgba(0,0,0,.5);
+}
+.ring:before
+{
+  content:'';
+  position:absolute;
+  top:-3px;
+  left:-3px;
+  width:100%;
+  height:100%;
+  border:3px solid transparent;
+  border-top:3px solid #fff000;
+  border-right:3px solid #fff000;
+  border-radius:50%;
+  animation:animateC 2s linear infinite;
+}
+.ring>span
+{
+  display:block;
+  position:absolute;
+  top:calc(50% - 2px);
+  left:50%;
+  width:50%;
+  height:4px;
+  background:transparent;
+  transform-origin:left;
+  animation:animate 2s linear infinite;
+}
+.ring>span:before
+{
+  content:'';
+  position:absolute;
+  width:16px;
+  height:16px;
+  border-radius:50%;
+  background:#fff000;
+  top:-6px;
+  right:-8px;
+  box-shadow:0 0 20px #fff000;
+}
+@keyframes animateC
+{
+  0%
+  {
+    transform:rotate(0deg);
+  }
+  100%
+  {
+    transform:rotate(360deg);
+  }
+}
+@keyframes animate
+{
+  0%
+  {
+    transform:rotate(45deg);
+  }
+  100%
+  {
+    transform:rotate(405deg);
+  }
+}
+
+/* error
+ */
+.error-page-section{
+  text-align: center;
+}
+ .error-container{
+  background-image: url(https://blog.hubspot.com/hs-fs/hubfs/404-error-page-iconfinder.jpg?width=975&name=404-error-page-iconfinder.jpg);
+  height: 80vh;
+  width: 60%;
+  background-position: center;
+  background-size:100*100;
+  background-repeat: no-repeat;
+  margin: auto;
+ }
+
+ .cotail-section{
+  text-align: center;
+  height: 60vh;
+  margin-top: 2rem;
+ } 
+
+.flex{
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem 3rem;
+  flex-wrap: wrap;
+  align-items: center;
+  background: #fff;
+  height: 60vh;
+  margin: auto;
+  padding: 1rem  1rem;
+}
+
+.drnk-info{
+  width: 26rem;
+  text-align: left;
+} 
+
+.drinks{
+ 
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  height: 20rem;
+  width: 20rem;
+
+}
+img{
+  width: 100%;
+
+}
+
+.singgle-titel{
+  margin-bottom: 3rem;
+}
+
+p{
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.drink-data{
+  word-spacing: 2px;
+}
+
+.btn-backhome{
+  background: #fff;
+  padding: 1rem 2rem 1rem 2rem;
+  border-radius: 0 0 4px 4px ;
 }
