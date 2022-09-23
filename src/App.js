@@ -1,10 +1,10 @@
 import React from 'react'
-import Random from './randomperson/Random'
+import Entry from './pagination/Entry'
 
 const App = () => {
   return (
     <div>
-      <Random/>
+     <Entry/>
     </div>
   )
 }
