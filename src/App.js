@@ -1,5 +1,5 @@
 import React from 'react'
-import Entry from './pagination/Entry'
+import Entry from './photos/Entry'
 
 const App = () => {
   return (
