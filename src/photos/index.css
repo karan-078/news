@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300&family=Roboto:wght@300;700&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+text-decoration: none;
+list-style: none;
+}
+
+body{
+    background: #efef;
+}
+
+
+.search{
+    width: 93vw;
+    padding: 5rem 0 0 0;
+    max-width: 95vw;
+    margin-top: 0 auto;
+}
+
+.search-form {
+    width: 50%;
+    display: flex;
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(63, 106, 201);
+  }
+  .search-form:hover {
+    border: 1px solid rgb(63, 106, 201);
+  }
+  .form-input {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0.4rem;
+    border: none;
+    outline: none;
+    background:  rgb(182, 232, 233);
+  }
+.submit-btn{
+    background: rgb(182, 233, 235);
+    border: none;
+   padding-right: 1rem;
+   color: grey;
+   text-align: center;
+  
+   
+}
+.photos{
+padding: 5rem 0;
+  }
+
+  .photos-center {
+    width: 90vw;
+    max-width: 95vw;
+    margin: 0 auto;
+  display: flex;
+ flex-wrap: wrap;
+ 
+    gap: 2rem;
+  
+  }
+
+  .photo {
+    height: 17.5rem;
+    width: 20rem;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    box-shadow: 5px 5px 20px rgba(0,0,0,1);
+  }
+  .photo>img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+  }
+
+  .user-img {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+  }
+  .photo h4 {
+    margin-bottom: 0.5rem;
+  }
+  .photo p {
+    margin-bottom: 0;
+  }
+  .photo-info {
+    position: absolute;
+    width: 100%;
+    padding: 1rem;
+    bottom: 0;
+    left: 0;
+    background: rgba(122, 203, 22, 0.7);
+    color: white;
+    transform: translateY(100%);
+    transition: 0.8s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .photo:hover .photo-info {
+    transform: translateY(0);
+  }
