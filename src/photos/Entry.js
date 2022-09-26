@@ -1,6 +1,6 @@
 import React from "react";
 import Photo from "./Photo";
-import { FaBorderStyle, FaSearch } from "react-icons/fa";
+import { FaSearch } from "react-icons/fa";
 import { useState, useEffect, useRef } from "react";
 import "./index.css";
 const clientId = `?client_id=${process.env.REACT_APP_ACCESS_KEY}`;
@@ -50,7 +50,7 @@ const Entry = () => {
 
   useEffect(() => {
     fetchImage();
-    // eslint-disable-next-line
+    //  eslint-disable-next-line
   }, [page]);
 
   useEffect(() => {
@@ -62,6 +62,7 @@ const Entry = () => {
     if(!newImage)return
     if(loading)return
     setPage((oldpage)=>oldpage+1);
+    // eslint-disable-next-line
   }, [newImage]);
 
   const event = ()=>{
@@ -74,6 +75,7 @@ const Entry = () => {
   useEffect(()=>{
     window.addEventListener('scroll',event);
     return()=>window.removeEventListener('scroll',event)
+    //  eslint-disable-next-line
   },[])
   // refactor scrool page code
   // useEffect(() => {
@@ -106,8 +108,9 @@ const Entry = () => {
           <input
             type="text"
             className="form-input"
+            placeholder="Search photo"
             value={queary}
-            onChange={(e) => setQueary(e.target.value)}
+            onChange={(e) => setQueary(e.target.value) }
           />
           <button type="submit" className="submit-btn" onClick={handlSubmit}>
             <FaSearch />
