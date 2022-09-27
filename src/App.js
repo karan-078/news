@@ -1,12 +1,12 @@
-import React from 'react'
-import Entry from './photos/Entry'
+import React from "react";
+
 
 const App = () => {
   return (
     <div>
-     <Entry/>
+      
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
