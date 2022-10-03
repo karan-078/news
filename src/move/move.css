@@ -1,0 +1,35 @@
+
+
+.onsubmit{
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+}
+
+.form_input{
+    width: 20rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+section{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.singl-page{
+    display: flex;
+    background: #fcfcfcee;
+    width: 80vw;
+    margin: 4rem auto;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.singlpage-info{
+    width: 50rem;
+    height: 20rem;
+    
+}
