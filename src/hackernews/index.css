@@ -1,6 +1,7 @@
  body{
-    background: black;
-    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
  }
 .container {
     width: 80px;
@@ -30,3 +31,51 @@
     50%  { top: 30px;  opacity: .2; }
     100% { top: 0;     opacity: 1; }
   }
+
+  .btn_container button:disabled{
+    cursor: not-allowed;
+  }
+
+  .btn_container{
+    display: flex;
+    align-items: center;
+    height: 1.2rem;
+    text-align: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .stories{
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    background: #fff;
+    flex-wrap: wrap;
+    color: black;
+  }
+
+
+  .story{
+    background:#fefe;
+    width: 20rem;
+    height: 10rem;
+    width: 80%;
+    margin: auto;
+     margin-top: 1rem;
+     width: 25rem;
+     text-align: center;
+     padding: 1rem 1rem;
+    
+  }
+
+ .btn{
+  text-align: center;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+ }
+
+ .form_controal{
+ text-align: center;
+ margin-bottom: 3rem;
+ }
