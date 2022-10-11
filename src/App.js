@@ -1,9 +1,9 @@
 import React from "react";
-import News from "./hackernews/News";
+import Mainentry from "./quiz/Mainentry";
 const App = () => {
   return (
     <div>
-<News/>
+  <Mainentry/>
     </div>
   );
 };
