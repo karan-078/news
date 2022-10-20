@@ -6,7 +6,7 @@ import ReactDOM from "react-dom/client";
 // import {AppProvider } from './Context';
 // import { AppProvider } from "./move/Contex";
 // import { AppProvider } from "./hackernews/context";
-import { AppProvider } from "./quiz/context";
+// import { AppProvider } from "./quiz/context";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
@@ -14,9 +14,10 @@ import reportWebVitals from "./reportWebVitals";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <AppProvider>
+    {/* <AppProvider>
       <App />
-    </AppProvider>
+    </AppProvider> */}
+    <App/>
   </React.StrictMode>
 );
 

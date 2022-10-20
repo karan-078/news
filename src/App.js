@@ -1,10 +1,10 @@
 import React from "react";
-import Mainentry from "./quiz/Mainentry";
+import { Authwraper, Dashbord, Error, Login, Privetroute } from './githubuser/page'
+
+
 const App = () => {
   return (
-    <div>
-  <Mainentry/>
-    </div>
+    <Login/>
   );
 };
 
